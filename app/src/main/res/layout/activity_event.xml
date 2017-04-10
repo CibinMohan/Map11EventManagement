@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccff"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/eve_frag">
+
+        </RelativeLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="right" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                >
+
+
+                <CheckBox
+                    android:text="Custom Location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkBox" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:background="#e5e5ff"
+            android:visibility="gone"
+            android:id="@+id/tablehide"
+            >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:text="CUSTOM LOCATION"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    />
+
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Location"
+                    android:ems="10"
+                    android:id="@+id/edit_loc"
+                    android:background="#ffffff"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:text="LATITUDE \n LONGITUDE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12" />
+
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Lat"
+                    android:ems="10"
+                    android:id="@+id/edit_lat"
+                    android:background="#ffffff"
+                    />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    />
+                <EditText
+                    android:paddingLeft="10dp"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Long"
+                    android:ems="10"
+                    android:id="@+id/edit_long"
+                    android:background="#ffffff"
+                    />
+
+
+            </TableRow>
+            </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp">
+
+            <TextView
+                android:text="TITLE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="football"
+                    android:ems="10"
+                    android:id="@+id/edit_title"
+                    android:background="#ffffff"
+                    />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp" >
+            <TextView
+                android:text="DETAILS     "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="#ffffff"
+                    android:hint="Details"
+                    android:ems="10"
+                    android:id="@+id/edit_details" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp" >
+
+
+            </TableRow>
+            </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/datePicker2"
+                android:scaleX="0.70"
+                android:scaleY="0.70"
+
+                style="@android:style/Widget.DatePicker" />
+
+
+            </TableRow>
+            </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <Button
+                android:text="HOST"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:background="#9999ff"
+                    android:id="@+id/addtofile"
+                    android:layout_column="0">
+
+            </Button>
+
+            <TextView
+                android:paddingLeft="10dp"/>
+                <Button
+                    android:text="SHARE"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:id="@+id/addshare"
+                    android:visibility="gone"
+
+                    android:layout_column="2">
+
+                </Button>
+
+                <TextView
+                    android:paddingLeft="10dp"/>
+                <Button
+                    android:text="SHARE ALL"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:id="@+id/mail"
+                    android:visibility="gone"
+
+                    android:layout_column="2">
+
+                </Button>
+            </TableRow>
+        <TableRow>
+
+        </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+

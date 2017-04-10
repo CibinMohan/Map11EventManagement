@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="#ccccff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/frag_detailedView">
+
+    </RelativeLayout>
+    <TableLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frag_detailedView"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentTop="false">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:text="TITLE"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Not Found"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_D_Title" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:text="DETAILS"
+
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Not Found"
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_D_Details" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:text="LOCATION"
+
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Not Found"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_D_Loc" />
+\
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:text="DATE"
+                android:textColor="#000000"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Not Found"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_D_Date" />
+
+        </TableRow>
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_width="match_parent">
+
+        </TableRow>
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map2"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.c4cib.map1111.ui.MapsActivity" />
+
+    </TableLayout>
+
+
+</RelativeLayout>

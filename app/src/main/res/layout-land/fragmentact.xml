@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/background_light">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#6666ff">
+
+        <Button
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/ic_home_black_24dp"
+            android:id="@+id/a_b"
+            android:layout_gravity="left"
+            android:layout_weight="1" />
+
+        <TextView
+            android:width="100dp"
+            android:height="20dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/userName">
+
+        </TextView >
+
+        <Button
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/ic_user_24dp"
+            android:id="@+id/a_user"/>
+
+
+        <Button
+            android:paddingLeft="100dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/ic_logout_24dp"
+            android:id="@+id/logout" />
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccff"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/frag_contact">
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="50dp"
+            android:paddingLeft="40dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                >
+                <Button
+                    android:text="ADD CONTACT"
+                    android:layout_width="300dp"
+                    android:id="@+id/addContact"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/iccontact">
+
+                </Button>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                >
+                <Button
+                    android:text="VIEW CONTACT"
+                    android:layout_width="300dp"
+                    android:id="@+id/viewContact"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/userview">
+
+                </Button>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,24 @@
+Hawthorn,-37.827162,145.034965,Melbourne
+Prahran,-37.827162,145.034965,Melbourne
+Koyong,-37.827162,145.034965,Melbourne
+Richmont,-37.815740,145.017658,Melbourne
+North Melbourne,-37.801133,144.950630,Melbourne
+Kensington,-37.788438,144.930365,Melbourne
+Geelong West,-38.13333,144.35,Melbourne
+Geelong,-38.14711,144.36069,Melbourne
+Frankston East,-38.13333,145.13333,Melbourne
+Footscray,-37.792876,144.905302,Melbourne
+Adelide,-34.930711,138.602663,Adelide
+Flinters,-34.926295,138.610078,Adelide
+Wollongong,-34.43333,150.88333,Sydney
+Cessnock,-32.83333,151.35,Sydney
+Castle Hill,-33.73333,151,Sydney
+Carlingford,-33.78269,151.04888,Sydney
+Caringbah,-34.05,151.13333,Sydney
+Canberra,-35.28346,149.12807,Sydney
+Caloundra,-26.8,153.13333,Australia/Brisbane
+Cairns,-16.91667,145.76667,Australia/Brisbane
+Caboolture,-27.08333,152.95,Australia/Brisbane
+Burnie,-41.06667,145.91667,Australia/Hobart
+Palmerston,-12.48602,130.9833,Australia/Darwin
+Newcastle,-32.976082,151.484489,Newcastle

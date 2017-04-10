@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccff"
+ >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:paddingLeft="200dp">
+            <TextView
+                android:text="PASSWORD"
+                android:layout_width="match_parent"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Title" />
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="80dp"
+            android:paddingLeft="150dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            <TextView
+                android:text="NAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:inputType="textPersonName"
+                    android:hint="name"
+                    android:ems="10"
+                    android:id="@+id/edit_name_f"
+                    android:elevation="1dp" />
+
+            </TableRow>
+
+
+    <TableRow
+        android:paddingTop="30dp"
+        android:paddingLeft="150dp">
+    <Button
+        android:text="SEND"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but_fpas"
+        android:textColor="#ffffff"
+        android:background="#9999ff">
+
+    </Button>
+    </TableRow>
+             </TableLayout>
+
+
+</RelativeLayout>

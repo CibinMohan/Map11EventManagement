@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccccff"
+    >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/frag_h">
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingLeft="0dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                >
+            <Button
+                android:text="CREATE EVENT"
+                android:layout_width="200dp"
+                android:id="@+id/Create"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:background="#9999ff"
+                android:drawableLeft="@mipmap/createanevent">
+
+            </Button>
+                <Button
+                    android:text="VIEW MY EVENTS"
+                    android:layout_width="300dp"
+                    android:id="@+id/View"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/userview">
+
+                </Button>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                >
+                <Button
+                    android:text="VIEW ALL"
+                    android:layout_width="300dp"
+                    android:id="@+id/ViewAll"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/search">
+
+                </Button>
+                <Button
+                    android:text="MAP VIEW"
+                    android:layout_width="300dp"
+                    android:id="@+id/Map"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/gmap">
+
+                </Button>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                >
+                <Button
+                    android:text="MANAGE CONTACT"
+                    android:layout_width="300dp"
+                    android:id="@+id/Contact"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:background="#9999ff"
+                    android:drawableLeft="@mipmap/iccontact">
+
+                </Button>
+            </TableRow>
+
+
+        </TableLayout>
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/dataNd"
+    android:textColor="#ccccff"/>
+</RelativeLayout>
+
